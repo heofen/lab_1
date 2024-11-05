@@ -107,4 +107,56 @@ public class Student
         get {return education;}
         set {education = value;}
     }
+
+    public int GroupNumber
+    {
+        get {return groupNumber;}
+        set {groupNumber = value;}
+    }
+
+    public List<Exam> Exams
+    {
+        get {return exams;}
+        set {exams = value;}
+    }
+
+    public double AverageGrade
+    {
+        get
+        {
+            if (exams.Count == 0) return 0.0;
+            
+            double sum = 0.0;
+            foreach (var exam in exams)
+            {
+                sum += exam.Grade;
+            }
+            return sum / exams.Count;
+        }
+    }
+
+    public bool isEducation(Education educationForm)
+    {
+        return education == educationForm;
+    }
+
+    public void addExam(params Exam[] exam)
+    {
+        exams.AddRange(exam);
+    }
+
+    public override string ToString()
+    {
+        string examsInfo = "";
+        foreach (var exam in exams)
+        {
+            examsInfo += exam.ToString() + "\n";
+        }
+        return $"Student: {person}\nEducation: {education}, Group: {groupNumber}, Average Grade: {AverageGrade}\nExams:\n{examsInfo}";    
+    }
+
+    public virtual string ToShortString()
+    {
+        return $"Student: {person}\nEducation: {education}\nGroup: {groupNumber}, Average Grade: {AverageGrade}";
+    }
 }
