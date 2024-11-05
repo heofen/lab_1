@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 
 public enum Education
 {
@@ -39,9 +39,9 @@ public class Person
         set {lastName = value;}
     }
 
-    public string BirthDate
+    public DateTime BirthDate
     {
-        get {retutn birthDate;}
+        get {return birthDate;}
         set {birthDate = value;}
     }
 
@@ -58,7 +58,7 @@ public class Person
 
     public virtual string ToShortString()
     {
-        return $"{firstName} {lastName}"
+        return $"{firstName} {lastName}";
     }
 }
 
@@ -77,7 +77,7 @@ public class Exam
 
     public override string ToString()
     {
-        return $"Subject: {Subject}, Grade: {Grade}, Date: {Date..ToShortDateString()}"
+        return $"Subject: {Subject}, Grade: {Grade}, Date: {Date.ToShortDateString()}";
     }
 }
 
