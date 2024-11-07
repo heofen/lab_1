@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace lab_1
+﻿namespace lab_1
 {
     public enum Education
     {
@@ -11,7 +9,7 @@ namespace lab_1
 
     public class Person
     {
-        private string firstName;
+        private string firstName = string.Empty;
         private string lastName;
         private DateTime birthDate;
 
@@ -184,7 +182,7 @@ namespace lab_1
     {
         public static void Main()
         {
-            Student student = new Student();
+            var student = new Student();
             Console.WriteLine($"Student (ToShortString): {student.ToShortString()}\n");
 
             Console.WriteLine("Education form check:");
