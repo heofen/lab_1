@@ -1,0 +1,15 @@
+/home/evelyner/RiderProjects/lab_1/lab_1/bin/Debug/net8.0/lab_1
+/home/evelyner/RiderProjects/lab_1/lab_1/bin/Debug/net8.0/lab_1.deps.json
+/home/evelyner/RiderProjects/lab_1/lab_1/bin/Debug/net8.0/lab_1.runtimeconfig.json
+/home/evelyner/RiderProjects/lab_1/lab_1/bin/Debug/net8.0/lab_1.dll
+/home/evelyner/RiderProjects/lab_1/lab_1/bin/Debug/net8.0/lab_1.pdb
+/home/evelyner/RiderProjects/lab_1/lab_1/obj/Debug/net8.0/lab_1.GeneratedMSBuildEditorConfig.editorconfig
+/home/evelyner/RiderProjects/lab_1/lab_1/obj/Debug/net8.0/lab_1.AssemblyInfoInputs.cache
+/home/evelyner/RiderProjects/lab_1/lab_1/obj/Debug/net8.0/lab_1.AssemblyInfo.cs
+/home/evelyner/RiderProjects/lab_1/lab_1/obj/Debug/net8.0/lab_1.csproj.CoreCompileInputs.cache
+/home/evelyner/RiderProjects/lab_1/lab_1/obj/Debug/net8.0/lab_1.sourcelink.json
+/home/evelyner/RiderProjects/lab_1/lab_1/obj/Debug/net8.0/lab_1.dll
+/home/evelyner/RiderProjects/lab_1/lab_1/obj/Debug/net8.0/refint/lab_1.dll
+/home/evelyner/RiderProjects/lab_1/lab_1/obj/Debug/net8.0/lab_1.pdb
+/home/evelyner/RiderProjects/lab_1/lab_1/obj/Debug/net8.0/lab_1.genruntimeconfig.cache
+/home/evelyner/RiderProjects/lab_1/lab_1/obj/Debug/net8.0/ref/lab_1.dll
